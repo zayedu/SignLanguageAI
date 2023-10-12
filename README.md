@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-SignLanguageAI is a computer vision project developed in Python that leverages various Python libraries to recognize and interpret American Sign Language (ASL) characters. This project makes use of a range of tools and technologies, including NumPy, Matplotlib, TensorFlow, Pickle, and OpenCV to achieve real-time sign language character recognition. Currently, it is trained to identify the ASL characters "A," "B," and "L."
+SignLanguageAI is a computer vision project developed in Python that leverages various Python libraries to recognize and interpret American Sign Language (ASL) characters. This project makes use of a range of tools and technologies, including NumPy, Matplotlib, TensorFlow, Pickle, SciKit and OpenCV to achieve real-time sign language character recognition. Currently, it is trained to identify the ASL characters "A," "B," and "L."
 
 ## Features
 
@@ -18,15 +18,11 @@ SignLanguageAI is a computer vision project developed in Python that leverages v
 
 To get started with SignLanguageAI, follow these steps:
 
-1. **Clone the Repository:** Clone this repository to your local machine using the following command:
+1. **Clone the Repository:** Clone this repository to your local machine using the following command: `git clone https://github.com/zayedu/SignLanguageAI.git`
 
-git clone https://github.com/zayedu/SignLanguageAI.git
+2. **Install Dependencies:** Make sure you have Python 3.11 installed and install the required Python libraries by running: `pip install -r requirements.txt`
 
-2. **Install Dependencies:** Make sure you have Python 3.11 installed and install the required Python libraries by running: pip install -r requirements.txt
-
-3. **Run the Application:** Execute the main Python script to start recognizing ASL characters using your webcam:
-
-python inference_classifier.py
+3. **Run the Application:** Execute the main Python script to start recognizing ASL characters using your webcam: `python inference_classifier.py`
 
 ## Model Training
 
