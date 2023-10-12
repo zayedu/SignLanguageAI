@@ -1,6 +1,6 @@
 # SignLanguageAI
 
-![Project Demo](SignLanguageDetection_Demo.png)
+![Project Demo](Resources/SignLanguageDetection_Demo.png)
 
 ## Project Overview
 
